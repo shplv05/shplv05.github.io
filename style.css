@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(165, 236, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0 10%;
+}
+
+.photo{
+    width: 600px
+}
+
+.totyaphon{
+    width: 250px
+}
+
+.endi{
+    width: 100px
+}
+
+.romance-club{
+    border: 1px solid black;
+    tr:nth-child(odd) { background-color: rgb(246, 255, 201); }
+}
+
+@media (max-width: 600px) {
+    body { margin: 0 5%; font-size: medium; }
+    img { max-width: 100%; }
+}
